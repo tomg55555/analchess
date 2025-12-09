@@ -22,8 +22,10 @@ tauri = { version = "2", features = [] }
 tauri-plugin-opener = "2"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
-shakmaty = "0.27"    # Or latest version
-pgn-reader = "0.28"  # Or latest version
+shakmaty = "0.29.4"
+bincode = "1.3"
+pgn-reader = "0.28.0"
+sled = "0.34.7"
 
 [dev-dependencies]
 criterion = "0.5"
